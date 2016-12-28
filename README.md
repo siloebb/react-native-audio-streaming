@@ -62,6 +62,7 @@ Update Info.plist file of your Xcode project and add audio background mode
 2. Append the following lines to `android/settings.gradle`:
   	```
   	include ':react-native-audio-streaming'
+   
   	project(':react-native-audio-streaming').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-audio-streaming/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
